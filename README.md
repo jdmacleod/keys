@@ -1,3 +1,7 @@
+# Support Notice 11/03/2017
+
+Be aware that the new releases of Lightroom have broken Keys functionality.
+
 # Keys
 
 Keys was originally distributed by Visual Supply Company in order to
@@ -6,7 +10,6 @@ In August 2015, it was discontinued as a product for purchase, and is now
 open source and available for free download.
 
 Before downloading Keys, remove any pre-existing versions of VSCO Keys.
-For more on the installation process, see: https://vsco.zendesk.com/hc/en-us/articles/203435590-VSCO-Keys-Compatibility-within-OSX-Yosemite-
 
 ## License
 
@@ -15,10 +18,15 @@ in [LICENSE](LICENSE).
 
 ## Installing
 
-Go to http://vsco.github.io/keys/ and click the "Download for Windows" or
-"Download for Mac" link, depending on your platform. Unzip the downloaded
-file and double-click the installer. Follow the prompts and it will be
-installed.
+Go to the Releases page, and download the `.zip` file for the [latest release](https://github.com/cajames/keys/releases/latest).
+Unzip the downloaded file and double-click the installer. Follow the prompts and it will be installed.
+
+**On Mac**
+After installing, please be sure to add the `VSCOKeys.app` to have accessibility privileges.
+```
+System Preferences -> Security & Privacy -> Privacy -> Accessibility.
+// Add VSCOKeys.app to that list
+```
 
 ## Contributing
 
